@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindDoxygen.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.16/Modules/FindPackageMessage.cmake
+E:/prj/RESQML/fesapiEnv/fesapi/doc/CMakeLists.txt
+E:/prj/RESQML/fesapiEnv/fesapi/doc/Doxyfile.in

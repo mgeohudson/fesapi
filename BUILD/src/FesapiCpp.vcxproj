@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5EC6FB9D-F1E1-3262-BBD2-FE9E81B291B4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>FesapiCpp</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\prj\RESQML\fesapiEnv\fesapi\BUILD\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FesapiCpp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FesapiCpp.1.0.0.0</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\prj\RESQML\fesapiEnv\dependencies\zlib-1.2.11;E:\prj\RESQML\fesapiEnv\dependencies\hdf5-1.10.5\src;E:\prj\RESQML\fesapiEnv\dependencies\minizip;E:\prj\RESQML\fesapiEnv\fesapi\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR="Debug";FesapiCpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;H5_BUILT_AS_DYNAMIC_LIB;CMAKE_INTDIR=\"Debug\";FesapiCpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\prj\RESQML\fesapiEnv\dependencies\zlib-1.2.11;E:\prj\RESQML\fesapiEnv\dependencies\hdf5-1.10.5\src;E:\prj\RESQML\fesapiEnv\dependencies\minizip;E:\prj\RESQML\fesapiEnv\fesapi\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\prj\RESQML\fesapiEnv\dependencies\zlib-1.2.11;E:\prj\RESQML\fesapiEnv\dependencies\hdf5-1.10.5\src;E:\prj\RESQML\fesapiEnv\dependencies\minizip;E:\prj\RESQML\fesapiEnv\fesapi\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>E:\prj\RESQML\fesapiEnv\dependencies\minizip\BUILD\Debug\minizip.lib;E:\prj\RESQML\fesapiEnv\dependencies\hdf5-1.10.5\BUILD\bin\Debug\hdf5_D.lib;E:\prj\RESQML\fesapiEnv\dependencies\zlib-1.2.11\BUILD\Debug\zlibd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>E:/prj/RESQML/fesapiEnv/fesapi/BUILD/src/Debug/FesapiCpp.1.0.0.0.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>E:/prj/RESQML/fesapiEnv/fesapi/BUILD/Debug/FesapiCpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\prj\RESQML\fesapiEnv\fesapi\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/prj/RESQML/fesapiEnv/fesapi/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/prj/RESQML/fesapiEnv/fesapi -BE:/prj/RESQML/fesapiEnv/fesapi/BUILD --check-stamp-file E:/prj/RESQML/fesapiEnv/fesapi/BUILD/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.16\Modules\GNUInstallDirs.cmake;E:\prj\RESQML\fesapiEnv\fesapi\cmake\HidtType.h.in;E:\prj\RESQML\fesapiEnv\fesapi\cmake\nsDefinitions.h;E:\prj\RESQML\fesapiEnv\fesapi\cmake\version_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\prj\RESQML\fesapiEnv\fesapi\BUILD\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\nsDefinitions.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\version_config.h" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\AbstractHdfProxy.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\AbstractObject.cpp">
+      <ObjectFileName>$(IntDir)/common/AbstractObject.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\DataObjectRepository.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EnumStringMapper.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EpcDocument.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EpcExternalPartReference.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\HdfProxy.cpp">
+      <ObjectFileName>$(IntDir)/common/HdfProxy.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\AbstractHdfProxy.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\AbstractObject.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\DataObjectRepository.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EnumStringMapper.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EpcDocument.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EpcExternalPartReference.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\HdfProxy.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\HidtType.h" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\GuidTools.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Misc.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Statistics.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\TimeTools.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Trigonometry.cpp" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\GuidTools.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Misc.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Statistics.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\TimeTools.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Trigonometry.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\nullptr_emulation.h" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\ContentType.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\CoreProperty.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileContentType.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileCoreProperties.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FilePart.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileRelationship.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\Package.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\Relationship.cpp" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\ContentType.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\CoreProperty.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileContentType.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileCoreProperties.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FilePart.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileRelationship.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\Package.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\Relationship.h" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractColumnLayerGridRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractFeatureInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractGridRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractLocal3dCrs.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractProperty.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractValuesProperty.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\Activity.cpp">
+      <ObjectFileName>$(IntDir)/resqml2/Activity.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\ActivityTemplate.cpp">
+      <ObjectFileName>$(IntDir)/resqml2/ActivityTemplate.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\GridConnectionSetRepresentation.cpp">
+      <ObjectFileName>$(IntDir)/resqml2/GridConnectionSetRepresentation.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\MdDatum.cpp">
+      <ObjectFileName>$(IntDir)/resqml2/MdDatum.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\PropertyKind.cpp">
+      <ObjectFileName>$(IntDir)/resqml2/PropertyKind.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\PropertySet.cpp">
+      <ObjectFileName>$(IntDir)/resqml2/PropertySet.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\RepresentationSetRepresentation.cpp">
+      <ObjectFileName>$(IntDir)/resqml2/RepresentationSetRepresentation.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\SubRepresentation.cpp">
+      <ObjectFileName>$(IntDir)/resqml2/SubRepresentation.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\TimeSeries.cpp">
+      <ObjectFileName>$(IntDir)/resqml2/TimeSeries.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\WellboreFrameRepresentation.cpp">
+      <ObjectFileName>$(IntDir)/resqml2/WellboreFrameRepresentation.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractColumnLayerGridRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractFeatureInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractGridRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractLocal3dCrs.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractProperty.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractValuesProperty.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\Activity.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\ActivityTemplate.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\GridConnectionSetRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\MdDatum.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\PropertyKind.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\PropertySet.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\RepresentationSetRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\SubRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\TimeSeries.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\WellboreFrameRepresentation.h" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractIjkGridRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractOrganizationInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractStratigraphicOrganizationInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractSurfaceFrameworkRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractSurfaceRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\Activity.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/Activity.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ActivityTemplate.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/ActivityTemplate.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BlockedWellboreRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BoundaryFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BoundaryFeatureInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CategoricalProperty.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CategoricalPropertySeries.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CommentProperty.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ContinuousProperty.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ContinuousPropertySeries.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DeviationSurveyRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DiscreteProperty.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DiscretePropertySeries.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\EarthModelInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FaultInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FluidBoundaryFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FrontierFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GenericFeatureInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeneticBoundaryFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyBoundaryInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeologicUnitFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\Grid2dRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GridConnectionSetRepresentation.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/GridConnectionSetRepresentation.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\HdfProxy.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/HdfProxy.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\HorizonInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridExplicitRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridLatticeRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridNoGeometryRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridParametricRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\LocalDepth3dCrs.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\LocalTime3dCrs.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\MdDatum.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/MdDatum.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\NonSealedSurfaceFrameworkRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\OrganizationFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PlaneSetRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PointSetRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PolylineRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PolylineSetRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertyKind.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/PropertyKind.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertyKindMapper.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertySet.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/PropertySet.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RepresentationSetRepresentation.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/RepresentationSetRepresentation.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidOrganizationInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidUnitFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidUnitInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SealedSurfaceFrameworkRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SealedVolumeFrameworkRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLatticeFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLineFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLineSetFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicColumn.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicColumnRankInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicOccurrenceInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicUnitFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicUnitInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StringTableLookup.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StructuralOrganizationInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SubRepresentation.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/SubRepresentation.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TectonicBoundaryFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TimeSeries.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/TimeSeries.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TriangulatedSetRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\UnstructuredGridRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreFeature.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreFrameRepresentation.cpp">
+      <ObjectFileName>$(IntDir)/resqml2_0_1/WellboreFrameRepresentation.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreInterpretation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreMarker.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreMarkerFrameRepresentation.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreTrajectoryRepresentation.cpp" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractGeologicFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractIjkGridRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractOrganizationInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractStratigraphicOrganizationInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractSurfaceFrameworkRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractSurfaceRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractTechnicalFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\Activity.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ActivityTemplate.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BlockedWellboreRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BoundaryFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BoundaryFeatureInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CategoricalProperty.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CategoricalPropertySeries.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CommentProperty.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ContinuousProperty.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ContinuousPropertySeries.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DeviationSurveyRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DiscreteProperty.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DiscretePropertySeries.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\EarthModelInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FaultInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FluidBoundaryFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FrontierFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GenericFeatureInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeneticBoundaryFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyBoundaryInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeologicUnitFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\Grid2dRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GridConnectionSetRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\HdfProxy.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\Horizon.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\HorizonInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridExplicitRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridLatticeRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridNoGeometryRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridParametricRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\LocalDepth3dCrs.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\LocalTime3dCrs.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\MdDatum.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\NonSealedSurfaceFrameworkRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\OrganizationFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PlaneSetRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PointSetRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PolylineRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PolylineSetRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertyKind.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertyKindMapper.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertySet.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RepresentationSetRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidOrganizationInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidUnitFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidUnitInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SealedSurfaceFrameworkRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SealedVolumeFrameworkRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLatticeFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLineFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLineSetFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicColumn.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicColumnRankInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicOccurrenceInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicUnitFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicUnitInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StringTableLookup.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StructuralOrganizationInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SubRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TectonicBoundaryFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TimeSeries.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TriangulatedSetRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\UnstructuredGridRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreFeature.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreFrameRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreInterpretation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreMarker.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreMarkerFrameRepresentation.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreTrajectoryRepresentation.h" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\AbstractObject.cpp">
+      <ObjectFileName>$(IntDir)/witsml2_0/AbstractObject.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Trajectory.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Well.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellCompletion.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Wellbore.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellboreCompletion.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellboreObject.cpp" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\AbstractObject.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\MacroDefinitions.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Trajectory.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Well.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellCompletion.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Wellbore.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellboreCompletion.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellboreObject.h" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\envC.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_1C.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_2C.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_resqml2_0_1C.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\namespace.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\stdsoap2.cpp" />
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\struct_tm.cpp" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\envH.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\envStub.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_1H.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_1Stub.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_2H.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_2Stub.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_resqml2_0_1H.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_resqml2_0_1Stub.h" />
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\stdsoap2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\prj\RESQML\fesapiEnv\fesapi\BUILD\ZERO_CHECK.vcxproj">
+      <Project>{66720BA3-7779-30CE-9A50-6A71F7CE1AF5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

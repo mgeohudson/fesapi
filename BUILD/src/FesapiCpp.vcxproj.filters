@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\AbstractHdfProxy.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\AbstractObject.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\DataObjectRepository.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EnumStringMapper.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EpcDocument.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EpcExternalPartReference.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\HdfProxy.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\GuidTools.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Misc.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Statistics.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\TimeTools.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Trigonometry.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\ContentType.cpp">
+      <Filter>epc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\CoreProperty.cpp">
+      <Filter>epc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileContentType.cpp">
+      <Filter>epc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileCoreProperties.cpp">
+      <Filter>epc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FilePart.cpp">
+      <Filter>epc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileRelationship.cpp">
+      <Filter>epc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\Package.cpp">
+      <Filter>epc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\Relationship.cpp">
+      <Filter>epc</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractColumnLayerGridRepresentation.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractFeature.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractFeatureInterpretation.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractGridRepresentation.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractLocal3dCrs.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractProperty.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractRepresentation.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractValuesProperty.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\Activity.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\ActivityTemplate.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\GridConnectionSetRepresentation.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\MdDatum.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\PropertyKind.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\PropertySet.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\RepresentationSetRepresentation.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\SubRepresentation.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\TimeSeries.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\WellboreFrameRepresentation.cpp">
+      <Filter>resqml2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractIjkGridRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractOrganizationInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractStratigraphicOrganizationInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractSurfaceFrameworkRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractSurfaceRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\Activity.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ActivityTemplate.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BlockedWellboreRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BoundaryFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BoundaryFeatureInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CategoricalProperty.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CategoricalPropertySeries.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CommentProperty.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ContinuousProperty.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ContinuousPropertySeries.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DeviationSurveyRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DiscreteProperty.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DiscretePropertySeries.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\EarthModelInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FaultInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FluidBoundaryFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FrontierFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GenericFeatureInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeneticBoundaryFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyBoundaryInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeologicUnitFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\Grid2dRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GridConnectionSetRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\HdfProxy.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\HorizonInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridExplicitRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridLatticeRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridNoGeometryRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridParametricRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\LocalDepth3dCrs.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\LocalTime3dCrs.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\MdDatum.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\NonSealedSurfaceFrameworkRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\OrganizationFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PlaneSetRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PointSetRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PolylineRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PolylineSetRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertyKind.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertyKindMapper.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertySet.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RepresentationSetRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidOrganizationInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidUnitFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidUnitInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SealedSurfaceFrameworkRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SealedVolumeFrameworkRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLatticeFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLineFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLineSetFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicColumn.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicColumnRankInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicOccurrenceInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicUnitFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicUnitInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StringTableLookup.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StructuralOrganizationInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SubRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TectonicBoundaryFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TimeSeries.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TriangulatedSetRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\UnstructuredGridRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreFeature.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreFrameRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreInterpretation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreMarker.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreMarkerFrameRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreTrajectoryRepresentation.cpp">
+      <Filter>resqml2_0_1</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\AbstractObject.cpp">
+      <Filter>witsml2_0</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Trajectory.cpp">
+      <Filter>witsml2_0</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Well.cpp">
+      <Filter>witsml2_0</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellCompletion.cpp">
+      <Filter>witsml2_0</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Wellbore.cpp">
+      <Filter>witsml2_0</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellboreCompletion.cpp">
+      <Filter>witsml2_0</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellboreObject.cpp">
+      <Filter>witsml2_0</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\envC.cpp">
+      <Filter>proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_1C.cpp">
+      <Filter>proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_2C.cpp">
+      <Filter>proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_resqml2_0_1C.cpp">
+      <Filter>proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\namespace.cpp">
+      <Filter>proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\stdsoap2.cpp">
+      <Filter>proxies</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\struct_tm.cpp">
+      <Filter>proxies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\nsDefinitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\version_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\AbstractHdfProxy.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\AbstractObject.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\DataObjectRepository.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EnumStringMapper.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EpcDocument.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\EpcExternalPartReference.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\HdfProxy.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\common\HidtType.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\GuidTools.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Misc.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Statistics.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\TimeTools.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\Trigonometry.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\tools\nullptr_emulation.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\ContentType.h">
+      <Filter>epc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\CoreProperty.h">
+      <Filter>epc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileContentType.h">
+      <Filter>epc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileCoreProperties.h">
+      <Filter>epc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FilePart.h">
+      <Filter>epc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\FileRelationship.h">
+      <Filter>epc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\Package.h">
+      <Filter>epc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\epc\Relationship.h">
+      <Filter>epc</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractColumnLayerGridRepresentation.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractFeature.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractFeatureInterpretation.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractGridRepresentation.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractLocal3dCrs.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractProperty.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractRepresentation.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\AbstractValuesProperty.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\Activity.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\ActivityTemplate.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\GridConnectionSetRepresentation.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\MdDatum.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\PropertyKind.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\PropertySet.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\RepresentationSetRepresentation.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\SubRepresentation.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\TimeSeries.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2\WellboreFrameRepresentation.h">
+      <Filter>resqml2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractGeologicFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractIjkGridRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractOrganizationInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractStratigraphicOrganizationInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractSurfaceFrameworkRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractSurfaceRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\AbstractTechnicalFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\Activity.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ActivityTemplate.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BlockedWellboreRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BoundaryFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\BoundaryFeatureInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CategoricalProperty.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CategoricalPropertySeries.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\CommentProperty.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ContinuousProperty.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\ContinuousPropertySeries.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DeviationSurveyRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DiscreteProperty.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\DiscretePropertySeries.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\EarthModelInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FaultInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FluidBoundaryFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\FrontierFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GenericFeatureInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeneticBoundaryFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyBoundaryInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeobodyInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GeologicUnitFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\Grid2dRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\GridConnectionSetRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\HdfProxy.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\Horizon.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\HorizonInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridExplicitRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridLatticeRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridNoGeometryRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\IjkGridParametricRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\LocalDepth3dCrs.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\LocalTime3dCrs.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\MdDatum.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\NonSealedSurfaceFrameworkRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\OrganizationFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PlaneSetRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PointSetRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PolylineRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PolylineSetRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertyKind.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertyKindMapper.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\PropertySet.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RepresentationSetRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidOrganizationInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidUnitFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\RockFluidUnitInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SealedSurfaceFrameworkRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SealedVolumeFrameworkRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLatticeFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLineFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SeismicLineSetFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicColumn.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicColumnRankInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicOccurrenceInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicUnitFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StratigraphicUnitInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StringTableLookup.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\StructuralOrganizationInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\SubRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TectonicBoundaryFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TimeSeries.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\TriangulatedSetRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\UnstructuredGridRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreFeature.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreFrameRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreInterpretation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreMarker.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreMarkerFrameRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\resqml2_0_1\WellboreTrajectoryRepresentation.h">
+      <Filter>resqml2_0_1</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\AbstractObject.h">
+      <Filter>witsml2_0</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\MacroDefinitions.h">
+      <Filter>witsml2_0</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Trajectory.h">
+      <Filter>witsml2_0</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Well.h">
+      <Filter>witsml2_0</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellCompletion.h">
+      <Filter>witsml2_0</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\Wellbore.h">
+      <Filter>witsml2_0</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellboreCompletion.h">
+      <Filter>witsml2_0</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\witsml2_0\WellboreObject.h">
+      <Filter>witsml2_0</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\envH.h">
+      <Filter>proxies</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\envStub.h">
+      <Filter>proxies</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_1H.h">
+      <Filter>proxies</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_1Stub.h">
+      <Filter>proxies</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_2H.h">
+      <Filter>proxies</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_eml2_2Stub.h">
+      <Filter>proxies</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_resqml2_0_1H.h">
+      <Filter>proxies</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\gsoap_resqml2_0_1Stub.h">
+      <Filter>proxies</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\prj\RESQML\fesapiEnv\fesapi\src\proxies\stdsoap2.h">
+      <Filter>proxies</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\prj\RESQML\fesapiEnv\fesapi\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0170EA20-3DA6-3FA4-9385-1C16054A6DDF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{CE7E8E1D-FBC3-3B0B-A3FD-F73AC340E7BC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="epc">
+      <UniqueIdentifier>{6391F558-7361-3C08-A34F-63904CD90E2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proxies">
+      <UniqueIdentifier>{B4E89973-A074-3418-AB33-F77A566B8E68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resqml2">
+      <UniqueIdentifier>{53F786B5-BB3C-322E-935A-470CE5A0C6B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resqml2_0_1">
+      <UniqueIdentifier>{8CD75EB8-0C7D-3190-8C38-58A50BA921DA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{03A469CC-D336-3955-94F8-EEF3DF3D9077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="witsml2_0">
+      <UniqueIdentifier>{1F8374A2-F5E7-3E9F-AC6C-8D96E5FEB7DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

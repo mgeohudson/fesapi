@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\prj\RESQML\fesapiEnv\fesapi\BUILD\CMakeFiles\fe12a422883f50a1e6be0a3b944ecc9d\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3F2BA7F9-4104-318C-9E47-4830D9A1660F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
