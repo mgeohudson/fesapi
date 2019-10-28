@@ -1,6 +1,0 @@
-# CMake generation dependency list for this directory.
-C:/Program Files/CMake/share/cmake-3.16/Modules/GNUInstallDirs.cmake
-E:/prj/RESQML/fesapiEnv/fesapi/cmake/HidtType.h.in
-E:/prj/RESQML/fesapiEnv/fesapi/cmake/nsDefinitions.h
-E:/prj/RESQML/fesapiEnv/fesapi/cmake/version_config.h.in
-E:/prj/RESQML/fesapiEnv/fesapi/src/CMakeLists.txt
