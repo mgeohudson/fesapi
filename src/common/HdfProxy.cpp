@@ -153,7 +153,7 @@ void HdfProxy::open()
 
 void HdfProxy::close()
 {
-	for (std::unordered_map< std::string, hid_t >::const_iterator it = openedGroups.begin(); it != openedGroups.end(); ++it) {
+	for (std::unordered_map< std::string, hdf5_hid_t >::const_iterator it = openedGroups.begin(); it != openedGroups.end(); ++it) {
 		if (H5Gclose(it->second) < 0) {
 			throw invalid_argument("The HDF5 group " + it->first + " could not have been closed.");
 		}

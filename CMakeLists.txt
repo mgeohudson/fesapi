@@ -140,12 +140,12 @@ set (WITH_EXPERIMENTAL OFF CACHE BOOL "Compile some experimental functionalities
 add_subdirectory(src)
 add_subdirectory(doc)
 
-set (WITH_EXAMPLE OFF CACHE BOOL "Also builds and installs an example executable which allows to serialize and deserialize a basic EPC document.")
+set (WITH_EXAMPLE ON CACHE BOOL "Also builds and installs an example executable which allows to serialize and deserialize a basic EPC document." FORCE)
 if (WITH_EXAMPLE)
 	add_subdirectory(example)
 endif (WITH_EXAMPLE)
 
-set (WITH_TEST OFF CACHE BOOL "Also build the unit tests.")
+set (WITH_TEST ON CACHE BOOL "Also build the unit tests." FORCE)
 if (WITH_TEST)
 	enable_testing()
 	add_subdirectory(test)
