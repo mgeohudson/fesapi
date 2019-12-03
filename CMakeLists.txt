@@ -142,7 +142,7 @@ if (WITH_EXAMPLE)
 	add_subdirectory(example)
 endif (WITH_EXAMPLE)
 
-set (WITH_TEST ON CACHE BOOL "Also build the unit tests." FORCE)
+set (WITH_TEST OFF CACHE BOOL "Also build the unit tests." FORCE)
 if (WITH_TEST)
 	enable_testing()
 	add_subdirectory(test)
