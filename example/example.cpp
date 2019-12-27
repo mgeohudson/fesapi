@@ -3679,8 +3679,11 @@ void deserialize(const string & inputFile)
 	//COMMON_NS::EpcDocument pck(inputFile, "C:/Users/Philippe/dev/fesapiEnv/fesapi/resources");
 	//COMMON_NS::EpcDocument pck(inputFile, "/home/philippe/dev/fesapi/resources");
 	cout << "Start deserialization of " << pck.getName() << " in " << (pck.getStorageDirectory().empty() ? "working directory." : pck.getStorageDirectory()) << endl;
+	
 	COMMON_NS::DataObjectRepository repo;
+
 	string resqmlResult = pck.deserializeInto(repo);
+
 	if (!resqmlResult.empty()) {
 		cerr << resqmlResult << endl;
 		throw invalid_argument("The epc document is not a valid one");
@@ -4543,13 +4546,14 @@ delete [] testingValues2;
 */
 
 // filepath is defined in a macro to better check memory leak
-#define filePath "../../testingPackageCpp.epc"
+//! #define filePath "../../testingPackageCpp.epc"
+#define filePath "E:/prj/RESQML/fesapiEnv/tests/Test01/Test01.epc"
 int main()
 {
 	//try {
-	if (serialize(filePath)) {
+	//if (serialize(filePath)) {
 		deserialize(filePath);
-	}
+	//}
 	/*}
 	catch (const std::invalid_argument & Exp)
 	{
