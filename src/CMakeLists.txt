@@ -11,9 +11,16 @@ configure_file(${FESAPI_ROOT_DIR}/cmake/version_config.h.in ${FESAPI_ROOT_DIR}/s
 if (HDF5_1_10)
 	set (COMMENT_HDF5_1_8 "//")
 	set (COMMENT_HDF5_1_10 "")
+	set (HDF5_ROS3_ENABLED OFF CACHE BOOL "Is your HDF5 library built with ROS3 ?")
+	if (HDF5_ROS3_ENABLED)
+		target_compile_definitions(${CPP_LIBRARY_NAME} PRIVATE "HDF5_ROS3_ENABLED")
+	endif(HDF5_ROS3_ENABLED)
 else ()
 	set (COMMENT_HDF5_1_8 "")
 	set (COMMENT_HDF5_1_10 "//")
+	if (DEFINED HDF5_ROS3_ENABLED)
+		unset(HDF5_ROS3_ENABLED CACHE)
+	endif ()
 endif ()
 configure_file(${FESAPI_ROOT_DIR}/cmake/HidtType.h.in ${FESAPI_ROOT_DIR}/src/common/HidtType.h)
 
@@ -54,6 +61,9 @@ endif (FESAPI_USE_BOOST_UUID)
 
 # Linker instructions
 if (WIN32)
+	if (EXISTS ${MINIZIP_LIBRARY_DEBUG} AND EXISTS ${HDF5_C_LIBRARY_DEBUG})
+		set(CMAKE_CONFIGURATION_TYPES "Release;MinSizeRel;RelWithDebInfo;Debug" CACHE STRING "" FORCE)
+	endif ()
 	if (NOT EXISTS ${MINIZIP_LIBRARY_DEBUG} OR NOT EXISTS ${HDF5_C_LIBRARY_DEBUG})
 		set(CMAKE_CONFIGURATION_TYPES "Release;MinSizeRel;RelWithDebInfo" CACHE STRING "" FORCE)
 	endif ()
@@ -104,23 +114,14 @@ if (WIN32)
 		target_link_libraries (${CPP_LIBRARY_NAME} PRIVATE ${SZIP_LIBRARY_DEBUG})
 	endif ()
 
-	set (ASSEMBLY_NAME ${CPP_LIBRARY_NAME})
-	set (DLL_SUFFIX ".dll")
-	set (IMPORT_SUFFIX ".lib")
-	if (SUFFIX_INCLUDES_VERSION)
-		set_target_properties(${CPP_LIBRARY_NAME}
-			PROPERTIES PDB_NAME ${ASSEMBLY_NAME}.${Fesapi_VERSION}
-		)
-		set (ASSEMBLY_NAME ${ASSEMBLY_NAME}.${Fesapi_VERSION})
-		set (DLL_SUFFIX .${Fesapi_VERSION}${DLL_SUFFIX})
-		set (IMPORT_SUFFIX .${Fesapi_VERSION}${IMPORT_SUFFIX})
-	endif ()
 	set_target_properties(${CPP_LIBRARY_NAME} PROPERTIES
+		PDB_NAME ${CPP_LIBRARY_NAME}${CMAKE_DEBUG_POSTFIX}.${Fesapi_VERSION}
 		LINK_FLAGS "/INCREMENTAL:NO /OPT:REF"
 		RUNTIME_OUTPUT_DIRECTORY ${FESAPI_BINARY_DIR}
-		SUFFIX ${DLL_SUFFIX}
-		IMPORT_SUFFIX ${IMPORT_SUFFIX}
-		VERSION ${Fesapi_VERSION_MAJOR}.${Fesapi_VERSION_MINOR})
+		SUFFIX .${Fesapi_VERSION}.dll
+		IMPORT_SUFFIX .${Fesapi_VERSION}.lib
+		VERSION ${Fesapi_VERSION_MAJOR}.${Fesapi_VERSION_MINOR}
+	)
 ELSEIF (UNIX)
 	if (NOT FESAPI_USE_BOOST_UUID)
 		target_link_libraries (${CPP_LIBRARY_NAME} PRIVATE ${UUID_LIBRARY_RELEASE})
