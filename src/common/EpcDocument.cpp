@@ -196,7 +196,8 @@ string EpcDocument::deserializeInto(DataObjectRepository & repo, DataObjectRepos
 			contentType.find("prodml", 14) != std::string::npos)
 		{
 			if (contentType == "application/x-resqml+xml;version=2.0;type=obj_EpcExternalPartReference") {
-				result += "The content type " + contentType + " should belong to eml and not to resqml since obj_EpcExternalPartReference is part of COMMON and not part of RESQML.\n";
+				//!OBS
+				//!result += "The content type " + contentType + " should belong to eml and not to resqml since obj_EpcExternalPartReference is part of COMMON and not part of RESQML.\n";
 				contentType = "application/x-eml+xml;version=2.0;type=obj_EpcExternalPartReference";
 			}
 			if (contentType == "application/x-eml+xml;version=2.0;type=obj_EpcExternalPartReference") {

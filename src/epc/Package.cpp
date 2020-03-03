@@ -274,7 +274,8 @@ std::vector<std::string> Package::openForReading(const std::string & pkgPathName
 			if (target.size() > 1 && target[0] == '/' && target[1] != '/') { // Rule 8 of A.3 paragraph Open Packaging Conventions (ECMA version)
 				target = target.substr(1);
 			}
-			target = "docProps/" + target; // always prefixed by "docProps/" because core.xml is always in folder docProps by business rule
+			//! OBS
+			//! target = "docProps/" + target; // always prefixed by "docProps/" because core.xml is always in folder docProps by business rule
 			if (!fileExists(target))
 			{
 				result.push_back("The extended core properties file " + target + " targeted in docProps/_rels/core.xml.rels is not present in the Epc document");
